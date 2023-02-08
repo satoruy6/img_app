@@ -4,6 +4,11 @@ import matplotlib.pyplot as plt
 from PIL import Image
 from model import predict
 
+st.set_page_config(
+  page_title="img_OCR_app",
+  page_icon="🚁",
+)
+
 st.set_option("deprecation.showfileUploaderEncoding", False)
 
 st.sidebar.title("画像認識アプリ")
